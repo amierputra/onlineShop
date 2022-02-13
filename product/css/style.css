@@ -1,0 +1,31 @@
+@media screen and (min-width: 601px) {
+    .font {
+        font-size: 80px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .font {
+        font-size: 40px;
+    }
+}
+
+h1 {
+    font-family: Montserrat;
+    font-weight: 700;
+    ;
+}
+
+h2 {
+    font-family: Poppins;
+    font-weight: 800;
+}
+
+h4 {
+    font-family: Poppins;
+    font-weight: 400;
+}
+
+.pointer {
+    cursor: pointer;
+}
