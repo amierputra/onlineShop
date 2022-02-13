@@ -99,7 +99,7 @@ function sendMail($email, $otp)
             <a href="adminlog.php" class="w3-bar-item w3-large w3-text-red pointer" style="font-family: Poppins; text-decoration:none;">Admin</a>
             <a href="login.php" class="w3-bar-item w3-large w3-right " style="font-family: Poppins; text-decoration:none;">Login</a>
             <a href="mypayment.php" class="w3-bar-item w3-large w3-right " style="font-family: Poppins; text-decoration:none;">My Payment</a>
-            <a href="" class="w3-bar-item w3-large w3-right " style="font-family: Poppins; text-decoration:none;">My Cart</a>
+            <a href="cart.php" class="w3-bar-item w3-large w3-right " style="font-family: Poppins; text-decoration:none;">Cart</a>
         </div>
     </div>
 
