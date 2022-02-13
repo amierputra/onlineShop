@@ -90,13 +90,15 @@ function sendMail($email, $otp)
             margin: auto;
         }
     }
-</style>
+</style> 
 
 <body>
     <div class="w3-padding-24">
         <div class="w3-bar w3-bottombar w3-cell-middle w3-top w3-white w3-border-red w3-padding-12">
             <a href="index.php" class="w3-bar-item w3-large w3-wide pointer" style="font-family: Poppins; text-decoration:none;"><b>HOME</b></a>
-            <a href="" class="w3-bar-item w3-large w3-right " style="font-family: Poppins; text-decoration:none;">About</a>
+            <a href="adminlog.php" class="w3-bar-item w3-large w3-text-red pointer" style="font-family: Poppins; text-decoration:none;">Admin</a>
+            <a href="login.php" class="w3-bar-item w3-large w3-right " style="font-family: Poppins; text-decoration:none;">Login</a>
+            <a href="mypayment.php" class="w3-bar-item w3-large w3-right " style="font-family: Poppins; text-decoration:none;">My Payment</a>
             <a href="" class="w3-bar-item w3-large w3-right " style="font-family: Poppins; text-decoration:none;">My Cart</a>
         </div>
     </div>
