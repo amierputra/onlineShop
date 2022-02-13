@@ -58,6 +58,19 @@ function uploadImage($id)
 
 <body>
 
+    <div class="w3-padding-24">
+        <div class="w3-bar w3-bottombar w3-cell-middle w3-top w3-white w3-border-red w3-padding-12">
+            <a href="newproduct.php" class="w3-bar-item w3-large w3-wide pointer" style="font-family: Poppins; text-decoration:none;"><b>HOME</b></a>
+            <a href="adminlog.php" class="w3-bar-item w3-large w3-right " style="font-family: Poppins; text-decoration:none;">Login</a>
+            <a href="adminreg.php" class="w3-bar-item w3-large w3-right " style="font-family: Poppins; text-decoration:none;">New Admin</a>
+        </div>
+    </div>
+
+    <header class="w3-container w3-center w3-padding-32 w3-white">
+        <h1 class="font"><b>TEMYRACLE</b></h1>
+        <h4 class="w3-large">Invest your skin a little <span class="w3-tag w3-red">Love!</span></h4>
+    </header>
+
     <div class="w3-padding-32 w3-container w3-white">
         <div class="w3-resize">
             <form class="w3-container w3-pale-red w3-border w3-padding-24 w3-round-large formco" name="insertForm" action="newproduct.php" method="post" onsubmit="return confirmDialog()" enctype="multipart/form-data">
@@ -96,7 +109,7 @@ function uploadImage($id)
                         </div>
                     </div>
                 </div>
-            </form>
+            </form> 
         </div>
     </div>
 
